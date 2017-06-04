@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29673" started-at="2017-06-02T06:50:26Z" finished-at="2017-06-02T06:50:55Z">
+  <suite name="Default suite" duration-ms="27225" started-at="2017-06-04T06:27:07Z" finished-at="2017-06-04T06:27:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29673" started-at="2017-06-02T06:50:26Z" finished-at="2017-06-02T06:50:55Z">
+    <test name="Default test" duration-ms="27225" started-at="2017-06-04T06:27:07Z" finished-at="2017-06-04T06:27:34Z">
       <class name="script.TestLogin">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.TestLogin@271053e1]" name="openApplication" is-config="true" duration-ms="20451" started-at="2017-06-02T12:20:26Z" finished-at="2017-06-02T12:20:46Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.TestLogin@589838eb]" name="openApplication" is-config="true" duration-ms="15803" started-at="2017-06-04T11:57:07Z" finished-at="2017-06-04T11:57:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="ValidLogin()[pri:0, instance:script.TestLogin@271053e1]" name="ValidLogin" duration-ms="9140" started-at="2017-06-02T12:20:46Z" finished-at="2017-06-02T12:20:55Z">
+        <test-method status="PASS" signature="ValidLogin()[pri:1, instance:script.TestLogin@589838eb]" name="ValidLogin" duration-ms="8899" started-at="2017-06-04T11:57:23Z" finished-at="2017-06-04T11:57:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestLogin@589838eb]" name="closeApplication" is-config="true" duration-ms="2452" started-at="2017-06-04T11:57:32Z" finished-at="2017-06-04T11:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
       </class> <!-- script.TestLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
