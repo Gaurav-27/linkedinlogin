@@ -10,13 +10,14 @@ import pom.SignInPage;
 
 public class TestLogin extends BaseTest {	
 	String aTitle = " ";
-	@Test
+	@Test(priority = 1)
 	public void ValidLogin() throws InterruptedException {
-		/*int j = Excel.getRowCount(INPUT_PATH, "TestLogin");*/
+		
 		
 		
 		LoginPage l = new LoginPage(driver);	
 		 SignInPage s = new SignInPage(driver);
+		 
 	
 		
 		
