@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test">
+    <packages>
+      <package name="script"/>
+    </packages>
+    <classes>
+      <class name="script.TestLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="script.TestLogin">
+        <methods>
+          <include name="openApplication"/>
+          <include name="ValidLogin"/>
+        </methods>
+      </class> <!-- script.TestLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
